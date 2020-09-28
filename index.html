@@ -1,0 +1,6 @@
+<h1 id="authcode"></h1>
+<script>
+let params = new URLSearchParams(location.search);
+var code = params.get('code');
+document.getElementById("authcode").innerHTML = code;
+</script>
